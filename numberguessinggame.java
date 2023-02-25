@@ -11,19 +11,19 @@ public class numberguessinggame{
     
     answer = rand.nextInt(Max)+1;
     for(int i=0;i<5;i++){
-      System.out.println("guess a number between 1 and 100");
+      System.out.println("choose a number between 1 and 100");
       guess = keyboard.nextInt();
       count += 1;
       if(guess == answer){
-            System.out.println("congratulations! your answer was correct");
-            System.out.println("you have completed the task in "+count+" attempts");
+            System.out.println("hurrayyy! you guessed it correct");
+            System.out.println("you completed the task in "+count+" attempts");
             break;}
     
       else if(guess < answer){
-            System.out.println("your guess is less than the answer"+answer);}
+            System.out.println("your choice is less than the answer"+answer);}
 
       else{
-            System.out.println("your guess is greater than the answer");}
+            System.out.println("your choice is greater than the answer");}
     }
      
                  
